@@ -84,8 +84,6 @@ mechanisms.
 
 - [AI4PGF 2026 grants programme](https://www.ai4pg.com/grants/ai4pg-2026)
 
----
-
 ## Gitcoin Initiatives
 
 During my time at Gitcoin, I led and contributed to a number of
@@ -117,18 +115,4 @@ programmes to help communities run their own funding rounds.
   Coordinated quadratic funding rounds for student blockchain clubs
   during Gitcoin Grants 20.
 
-## Governance & Badgeholding
 
-- **[POKT Network Badgeholder](https://docs.pokt.network/community/retro-pokt-goods-funding/voters-and-voting)** —
-  Served as a Badgeholder for POKT Network's retroactive public goods
-  funding programme, helping allocate funding to impactful contributors.
-
-- **POKT Conflict Committee** —
-  One of three members of the Conflict Committee established by POKT
-  Network to handle governance disputes.
-
-## Writing
-
-I write about my journey, principles, and lessons in public on
-[Mirror](https://mirror.xyz/0x1421d52714B01298E2e9AA969e14c9317B3E1CFA/jSspLaRnx3ptaDkYq5VihyPkM-THBaWhRvDoFiusz1U)
-and on this blog.

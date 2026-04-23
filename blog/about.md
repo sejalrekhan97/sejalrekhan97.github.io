@@ -56,8 +56,6 @@ from Deep Funding and DeepGov to Simocracy.
 
 See the full [projects page](/projects/).
 
----
-
 You can find me on
 [X / Twitter](https://x.com/sejal_rekhan) and
 [LinkedIn](https://www.linkedin.com/in/sejal-rekhan/).
