@@ -1,162 +1,134 @@
 # Projects
 
-Over the last couple of years I created and contributed to a number of
-Open Source projects.  Most of them were Python and Rust, a couple of
-others however were also C, C++, JavaScript, PHP or other languages mixed
-in.
+A selection of initiatives and projects I've worked on, mostly across
+public goods funding, AI x governance, and Web3 community building.
 
-This list is widely incomplete, lots of small things can be found on my
-[GitHub](https://github.com/mitsuhiko/) profile and some things are lost
-in the depths of the internet.
+## AI & Capital Allocation
 
-## Commercial Endeavors
+This is the area I'm most excited about right now — using AI to help
+communities make better collective decisions about how to fund what
+matters.
 
-Some of the more meaningful commercial projects and initiatives I worked on:
+### Deep Funding
 
--   [Plurk](http://www.plurk.com/) — the first commercial project I
-    worked on.  A microblogging platform similar to Twitter with a unieuq
-    timelime.
+[Deep Funding](https://www.deepfunding.org/) is an experiment in using
+AI as the engine and humans as the steering wheel for directing funding
+to open source repositories. Inspired by Vitalik Buterin's vision, the
+system uses a market of AI models to evaluate which Ethereum dependencies
+deserve rewards — with humans providing spot-check oversight.
 
--   [Fireline](http://fireteam.net/fireline/) — online services platform for games.
-    Built by a subsidary of Splash Damage to support internal and external
-    games.
+I was part of the initial phase of the pilot where I **led jury data
+collection** — recruiting and onboarding jurors (including Vitalik, EF
+researchers, and prominent Ethereum contributors) to make pairwise
+comparisons across 4,303 Ethereum repositories, directing $170k of
+funding toward the most impactful projects.
 
--   [Sentry](http://www.getsentry.com/) — error tracking and performance
-    monitoring platform.  Initially Open Source, now [Fair Source](https://fair.io/).  There since we raised money, built out an
-    office in Austria and lead SDKs and ingestion services for a many
-    years.
+- [Deep Funding: Driving rewards to open source repos using AI](https://www.youtube.com/watch?v=vvJv7xbHHpc) — EPD #19, ECH Institute ([recording](https://www.youtube.com/watch?v=vvJv7xbHHpc))
+- [DeepFunding w/ Vitalik Buterin Pt. 2](https://www.youtube.com/watch?v=ygaEBHYllPU) — GreenPill Podcast ([recording](https://www.youtube.com/watch?v=ygaEBHYllPU))
+- [Join the Deep Funding Jury](https://research.allo.capital/t/join-the-deep-funding-jury/99) — original call for jurors I authored
 
--   [Functional Software License](https://fsl.software/) — I was part
-    of drafting and promoting Sentry's [DOSP](https://opensource.org/delayed-open-source-publication) springing
-    license.  An innovative license that comes with a two year exclusivity
-    period for the original creator which turns into Apache2/MIT
-    afterwards.
+### DeepGov
 
--   [Fair Source](https://fair.io/) — the branding term we have
-    promoted for FSL style licenses with minimal restrictions that undergo
-    DOSP.
+[DeepGov](https://research.allo.capital/t/gg23-deepgov-configurable-ai-politicians-for-agent-allocation/294)
+is an experiment I co-authored with DavidDAO and Carl, exploring how
+configurable AI agents — "AI politicians" — could help scale funding
+decisions while keeping human values at the centre.
 
--   [Open Source Pledge](https://opensourcepledge.com/) — an initiative
-    born at Sentry to encourage companies to pledge to their Open Source
-    dependencies.
+Forked from Deep Funding and powered by a $25K public goods fund from
+Kevin Owocki, we ran DeepGov live during Gitcoin Grants 23. We built
+three distinct AI politicians — each with different governance
+philosophies — and had them review GG23 proposals and generate funding
+suggestions, which were then compared against human decisions.
 
-## Open Source Libraries
+Inspired by conversations with Audrey Tang and Vitalik's "AI as engine,
+humans as steering wheel" framework.
 
-This is a selection of some of my more popular Open Source libraries and
-projects.  They either became popular on their own, or gave birth to other
-Open Source projects later:
+- [GG23 DeepGov write-up](https://research.allo.capital/t/gg23-deepgov-configurable-ai-politicians-for-agent-allocation/294)
+- [Deep Gov talk at ECH Institute](https://www.youtube.com/watch?v=QpTJEhHiJ6E) — EPD #20 ([recording](https://www.youtube.com/watch?v=QpTJEhHiJ6E))
 
--   [Flask](https://flask.palletsprojects.com/) — a microframework for
-    Python based on good intentions.  At the time it became one of the
-    most popular Python frameworks and has been adopted by many companies
-    for internal APIs and microservices.
+### Simocracy
 
--   [Pygments](http://pygments.org/) — syntax highlighter written in
-    Python.  I created this project together with Georg Brandl in 2005.
-    For a while it became a very popular syntax highlighting powering many
-    web sites, including GitHub.
+[Simocracy](https://www.simocracy.org/) is a platform for AI digital twins
+at the governance table. Each "Sim" is an AI agent trained on your values,
+priorities, and reasoning style — it shows up to every meeting, reads every
+proposal, and argues your corner. The underlying mechanism uses marginal value
+functions and convex optimisation to find capital allocations that no human
+committee would ever run by hand.
 
--   [Jinja](https://jinja.palletsprojects.com/) — template engine for
-    Python.  Originally built as an improved version of Django templates
-    for non Django frameworks.  It became popular through Flask and other
-    web frameworks and also found home as a template language for
-    infrastructure scripting (salt and ansible) as well as LLM prompting.
+I ran two experiments with Simocracy, co-authored a paper on the concept
+with [David Dao](https://daviddao.org/), and helped design the live pilots:
 
--   [Sphinx](https://www.sphinx-doc.org/) — a Python documentation tool.
-    Like Pygments this was built together with Georg Brandl, oringally as
-    a replacement for the old LaTeX based documentation for Python itself.
-    It later became popular as a solution to write books and
-    documentations for many projects.
+- **Iceland Research Retreat** — the first Simocracy experiment, run at a
+  research retreat in Iceland. This is where the paper with David Dao was
+  conceived and written, exploring the theoretical and practical case for
+  AI digital twins in deliberative governance.
+  ([concept paper](https://beta.fileverse.io/files/fea41dd3-6085-4311-bec6-02e02d25bf95))
 
--   [Werkzeug](http://werkzeug.pocoo.org/) — WSGI utility library for Python.
-    This was originally built to promote the use of WSGI for Python and to
-    build applications on top.  Later this became the based of Flask.
+- **Frontier Tower, San Francisco** — ran a live agentic funding experiment
+  across 8 floors of the Frontier Tower (995 Market St) at Funding the
+  Commons SF, March 14–15 2026. A virtual council of Sims representing
+  each floor's lead governed a $5,000 treasury pool through the S-Process
+  mechanism — allocating funds across proposals from floors covering AI,
+  Ethereum, health, biotech, arts, robotics, and more.
+  ([event page](https://www.simocracy.org/ftc-sf))
 
--   [Click](https://click.palletsprojects.com/) — a
-    command line interface utility library.  I built this to make it
-    easier to build command line applications and it has become a very
-    popular choice in the Python ecosystem.
+### AI4PGF — Academic Grants Program
 
--   [Rye](https://github.com/astral-sh/rye) — an experimental package
-    manager for Python.  Built for my own use to see what packaging in
-    Python could look like it attracted a lot of interest.  The project
-    has been donated to astral who are building `uv` as a better,
-    spiritual successor.
+I'm currently running **[AI4PGF](https://www.ai4pg.com/grants/ai4pg-2026)**,
+an academic grants programme designed to advance research at the
+intersection of AI and public goods funding. The programme funds
+researchers and academics working on questions like: how can AI improve
+capital allocation decisions, what governance structures keep AI agents
+accountable, and how do we measure the impact of AI-assisted funding
+mechanisms.
 
--   [Twig](http://www.twig-project.org/) — a Django-inspired template
-    engine for PHP.  Originally created for a blogging system called
-    Chyrp, it took a life on its own when it was taken over by the
-    Symfony project.
+- [AI4PGF 2026 grants programme](https://www.ai4pg.com/grants/ai4pg-2026)
 
--   [Babel](http://babel.pocoo.org/) — collection of tools for
-    internationalizing Python applications.  Originally built by Edgewall
-    software for trac, I maintained it for a while.
+---
 
--   [Logbook](https://logbook.readthedocs.io/) — a logging library for Python.
+## Gitcoin Initiatives
 
--   [itsdangerous](http://pythonhosted.org/itsdangerous) — a
-    cryptographic signing library used by Flask and many other libraries.
+During my time at Gitcoin, I led and contributed to a number of
+programmes to help communities run their own funding rounds.
 
--   [redis-rs](https://github.com/mitsuhiko/redis-rs) — a redis driver
-    for Rust.  Originally built to learn Rust, it has become the most
-    popular redis driver.
+- **[EasyRPGF Training Program](https://gov.gitcoin.co/t/easyretropgf-xyz-training-program-pilot-cohort-1/17444)** —
+  Led training programmes for EasyRPGF (Easy Retroactive Public Goods
+  Funding), helping communities run retro funding rounds. Converted into
+  [video courses](https://www.youtube.com/playlist?list=PLvTrX8LNPbPlsFtC3w2Snlo8JKQLbuhrq).
 
--   [insta](https://insta.rs/) — a snapshot testing library for Rust.
-    Originally built for use at Sentry it has been adopted quite widely
-    for an improved snapshot testing experience.
+- **[QF on Grants Stack Training](https://gov.gitcoin.co/t/announcing-the-launch-of-round-managers-training-pilot-cohort/16724)** —
+  Designed and led training on running Quadratic Funding rounds on
+  Grants Stack. Also [video courses](https://www.youtube.com/playlist?list=PLvTrX8LNPbPk-klR2O6v5ILKi09ouTtFe).
 
--   [similar](https://insta.rs/similar/) — a diffling library for Rust.
-    Originally used for insta, has been independently become widely used.
+- **[Round Operators Manual](https://roundoperations.gitcoin.co/round-operations)** —
+  Created the comprehensive operations guide for community round
+  operators running grants on Gitcoin's Grants Stack.
 
--   [minijinja](https://github.com/mitsuhiko/minijinja/) — a minimal dependency
-    implementation of Jinja2 for Rust.  Built for my own use for an
-    unreleased project, it has also been adopted by a number of projects
-    and companies for LLM prompting.
+- **[Quadratic Avengers Initiative](https://gov.gitcoin.co/t/introducing-the-quadratic-avengers/16684)** —
+  Co-led this initiative to support and grow a network of capable round
+  operators across the ecosystem.
 
-## Open Source Applications
+- **[GreenPill Hypercerts Experiment](https://gov.gitcoin.co/t/lessons-from-greenpill-networks-hypercerts-impact-funding-experiment/17257)** —
+  Ran and documented GreenPill Network's experiment using Hypercerts as
+  an impact funding mechanism. Published full learnings on the Gitcoin
+  governance forum.
 
--   [Zine](https://web.archive.org/web/20101207045141/http://zine.pocoo.org/) — a
-    blog software written in Python.  This has been lost in the archive of the
-    internet, but at the time I was very proud of it.  It was a blogging
-    platform similar to WordPress for Python. ([archive](https://github.com/mitsuhiko/zine))
+- **[Student Blockchain Clubs QF Rounds — GG20](https://gov.gitcoin.co/t/student-blockchain-club-gg20-rounds-announcement-call-for-sponsorship/17441)** —
+  Coordinated quadratic funding rounds for student blockchain clubs
+  during Gitcoin Grants 20.
 
--   [Plurk Solace](http://opensource.plurk.com/solace/) — a multilingual
-    support application.  Was not used much but it was my first Open
-    Source project I was paid for. ([archive](https://github.com/mitsuhiko/solace))
+## Governance & Badgeholding
 
--   [python-modernize](https://github.com/python-modernize/python-modernize) — Python 2 to 3
-    porting tool.  I build this to demonstrate that you can build code
-    bases that were compatible to both 2.x and 3.x.  It later gave life to
-    [modernize](https://python-modernize.readthedocs.io/en/latest/).
+- **[POKT Network Badgeholder](https://docs.pokt.network/community/retro-pokt-goods-funding/voters-and-voting)** —
+  Served as a Badgeholder for POKT Network's retroactive public goods
+  funding programme, helping allocate funding to impactful contributors.
 
--   [pipsi](https://github.com/mitsuhiko/pipsi) — a wrapper around pip
-    for script installation that later inspired pipx and things like `uv
-    run`.
+- **POKT Conflict Committee** —
+  One of three members of the Conflict Committee established by POKT
+  Network to handle governance disputes.
 
--   [Lektor](https://www.getlektor.com/) — a static file content
-    management system written in Python.
+## Writing
 
-## Computer Games
-
-In a prior life I was credited for my work on some computer games:
-
--   [Batman Arkham Origins](http://en.wikipedia.org/wiki/Batman:_Arkham_Origins) — parts of online
-    services code and backend.
-
--   [RAD Soldiers](http://www.warchest.com/games/radsoldiers) — game
-    backend.
-
--   [Dirty Bomb](http://dirtybomb.nexon.net/) — online services and game
-    backend.
-
--   [Halo: The Master Chief Collection](http://en.wikipedia.org/wiki/Halo:_The_Master_Chief_Collection) —
-    online services consulting.
-
--   [Gears of War Ultimate Edition](https://en.wikipedia.org/wiki/Gears_of_War_(video_game)#Ultimate_Edition) —
-    online services consulting.
-
-## Projects for Competitions
-
--   ["Be a Bee"](http://www.aec.at/prix_history_en.php?year=2003) — for
-    u19, Ars Electronica 2003. 2nd Place.  In some ways what got me more
-    excited about programming and creating things.
+I write about my journey, principles, and lessons in public on
+[Mirror](https://mirror.xyz/0x1421d52714B01298E2e9AA969e14c9317B3E1CFA/jSspLaRnx3ptaDkYq5VihyPkM-THBaWhRvDoFiusz1U)
+and on this blog.

@@ -1,66 +1,63 @@
 # About Me
 
-<div style="float: right; margin-left: 20px; margin-bottom: 20px;">
-    <img src="/static/avatar-large.jpg" alt="Picture of me" width="150" height="150" />
+<div style="float: right; margin: 0 0 20px 30px;">
+  <img src="/static/sejal.jpg" alt="Sejal Rekhan" width="160" style="border-radius: 50%; border: 2px solid var(--border-color);" />
 </div>
 
-Hi, my name is Armin Ronacher!  I'm deeply passionate about building
-teams, creating products, and contributing to the Open Source community.
-As a dedicated software developer, I've had the privilege of creating a
-number of very popular Open Source projects, including Flask, Jinja2, and
-many [other widely used things](/projects/).
+Hi, I'm Sejal Rekhan.
 
-I founded [Earendil](https://earendil.com/).  For a decade, I've [been working
-on Sentry](/2025/3/31/leaving/), building out one of our regional offices,
-working on event ingestion, SDKs and leading the teams for our internal
-developer platform.  I also love sharing knowledge and experiences, which is
-why I give [talks at conferences and events](/talks/) and write about
-engineering and life on this blog.
+I grew up deeply curious — the kind of person who needs to try something
+to actually understand it. That instinct has shaped most of what I've
+done: I'd rather run a small experiment and be wrong than read about
+something indefinitely and stay uncertain. This blog is a record of that
+tendency applied to everyday life — habits, decisions, attention, social
+dynamics. The sample size is always one. The questions are always real.
 
-If my work has been valuable to you, I'd greatly appreciate your support
-through GitHub sponsors.
+I'm also someone who found their way into an unlikely world. I came to
+Web3 not through technology but through a genuine belief that how we fund
+things shapes what gets built — and that the systems we have for
+collective resource allocation are far worse than they need to be.
 
-<iframe src="https://github.com/sponsors/mitsuhiko/button" title="Sponsor mitsuhiko" height="35" width="116" style="border: 0; border-radius: 6px" allowtransparency="true"></iframe>
+## Work
 
-If you want to contact me, you can reach me via one of the following
-communication channels:
+I currently work at **[Protocol Labs](https://protocol.ai/)**, where I
+focus on public goods funding for the Filecoin ecosystem. My work sits at
+the intersection of grantmaking, community coordination, and funding
+mechanism design — figuring out how to sustainably fund the open source
+infrastructure that the ecosystem depends on, and experimenting with new
+ways to measure and reward impact.
 
--   via [email](mailto:armin.ronacher@active-4.com)
--   find me on [GitHub](https://github.com/mitsuhiko)
--   reach out to me on [X](https://x.com/mitsuhiko) or [Bluesky](https://bsky.app/profile/mitsuhiko.at).
+Before Protocol Labs, I spent time at Gitcoin, where I ran retroPGF
+rounds with Filecoin, Celo, and POKT Network, and piloted
+[EasyRPGF](https://gov.gitcoin.co/t/easyretropgf-xyz-training-program-pilot-cohort-1/17444)
+— a platform Gitcoin built to make retroactive public goods funding
+accessible to any community. Across these rounds, we distributed over
+**$5M of funding** to open source contributors and public goods projects.
+I also built the [Round Operators Manual](https://roundoperations.gitcoin.co/round-operations)
+and co-led the [Quadratic Avengers Initiative](https://gov.gitcoin.co/t/introducing-the-quadratic-avengers/16684).
 
-There are some other things that you might be interested in:
+I've also been a Badgeholder and Conflict Committee member at POKT
+Network, and I'm currently running
+[AI4PGF](https://www.ai4pg.com/grants/ai4pg-2026) — an academic grants
+programme at the intersection of AI and public goods funding.
 
--   watch my stuff on [YouTube](https://www.youtube.com/@ArminRonacher)
--   read my [darker thoughts on my other page](https://dark.ronacher.eu/)
+## Talks & Appearances
 
-My usual nickname is `mitsuhiko`.
+I speak regularly on public goods funding, regenerative finance, and
+AI-assisted governance — at conferences, panels, podcasts, and community
+calls.
 
-## Like my Work?
+See the full [talks page](/talks/).
 
-All of the open source stuff I work on is liberally licensed which means
-you can do with it whatever you want.
+## Projects
 
-I'm currently not available for consulting or contract work, but you can
-support my work via GitHub sponsors.
+A selection of initiatives and experiments I've led or contributed to —
+from Deep Funding and DeepGov to Simocracy.
 
-## About this Website
+See the full [projects page](/projects/).
 
-The name of this website came when a friend of mine and me were joking
-about what makes a great web 2.0 website.  We came up with three things: it
-has to have round corners, fresh colors and a weirdly shortened name.  So
-the first version of this blog was green, named after a fresh fruit
-(lucuma) and with a destroyed, abbreviated name.  Not much is left from
-these days, but the name stuck.
+---
 
-The website itself is written in restructured text and built with a small
-script.  Sourcecode can be [found on github](http://github.com/mitsuhiko/lucumr).
-
-## Imprint
-
-Imprint and contact information:
-
-Armin Ronacher  
-Handelskai 132a/1/46; 1020 Vienna; Austria  
-VAT number / UID: AT U68598289  
-Contact e-mail: armin.ronacher@active-4.com
+You can find me on
+[X / Twitter](https://x.com/sejal_rekhan) and
+[LinkedIn](https://www.linkedin.com/in/sejal-rekhan/).

@@ -3,38 +3,30 @@
   <head>
     <meta charset=utf-8>
   {% block htmlhead %}
-    <title>{% block title %}Home{% endblock %} | Armin Ronacher's Thoughts and Writings</title>
-    <link href="/feed.atom" rel="alternate" title="Armin Ronacher's Thoughts and Writings" type="application/atom+xml">
-    <link href="/feed.xml" rel="alternate" title="Armin Ronacher's Thoughts and Writings" type="application/rss+xml">
+    <title>{% block title %}Home{% endblock %} | Sejal Rekhan's Wiki</title>
+    <link href="/feed.atom" rel="alternate" title="Sejal Rekhan's Notebook" type="application/atom+xml">
+    <link href="/feed.xml" rel="alternate" title="Sejal Rekhan's Notebook" type="application/rss+xml">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="preload" href="/static/avatar-tiny.jpg" as="image" type="image/jpeg">
     {%- for link in links %}
     <link rel="{{ link.rel }}" href="{{ link.href }}"{%
       if link.media %} media="{{ link.media }}"{% endif %} type="{{ link.type }}">
     {%- endfor %}
-    <link rel="apple-touch-icon" sizes="300x300" href="/static/avatar-small.jpg">
-    <link rel="icon" type="image/png" sizes="300x300" href="/static/avatar-small.jpg">
-    {% block social_image %}
-    <meta name="twitter:image" content="https://lucumr.pocoo.org/static/avatar-small.jpg">
-    <meta property="og:image" content="https://lucumr.pocoo.org/static/avatar-small.jpg">
-    {% endblock %}
     <link rel="stylesheet" href="/static/fonts.css" type="text/css">
     <link rel="stylesheet" href="/static/style-2025.css" type="text/css">
     <link rel="stylesheet" href="/static/_pygments.css" type="text/css">
     <meta name="title" content="{{ self.title() }}">
     <meta property="og:title" content="{{ self.title() }}">
-    <meta property="og:site_name" content="Armin Ronacher's Thoughts and Writings">
-    <meta name="twitter:site" content="@mitsuhiko">
-    <meta name="twitter:url" content="https://lucumr.pocoo.org{{ slug }}">
-    <meta property="og:url" content="https://lucumr.pocoo.org{{ slug }}">
-    <link rel="canonical" href="https://lucumr.pocoo.org{{ slug }}">
+    <meta property="og:site_name" content="Sejal Rekhan's Wiki">
+    <meta name="twitter:site" content="@sejalrekhan">
+    <meta name="twitter:url" content="https://sejalrekhan.com{{ slug }}">
+    <meta property="og:url" content="https://sejalrekhan.com{{ slug }}">
+    <link rel="canonical" href="https://sejalrekhan.com{{ slug }}">
     <meta name="twitter:title" content="{{ self.title() }}">
-    <meta name="twitter:domain" content="https://lucumr.pocoo.org/">
+    <meta name="twitter:domain" content="https://sejalrekhan.com/">
     {% block twitter_card %}
     <meta name="twitter:card" content="summary">
     {% endblock %}
-    <meta name="twitter:creator" content="@mitsuhiko">
-    <link rel="me" href="https://hachyderm.io/@mitsuhiko">
+    <meta name="twitter:creator" content="@sejalrekhan">
   {% endblock %}
     <script type="speculationrules">
       {
@@ -76,14 +68,12 @@
     <script src="/static/app.js"></script>
     <div class=container>
       <div class=header>
-        <a href="/about/">Armin Ronacher</a>'s Thoughts and Writings
+        <a href="/about/">Sejal Rekhan</a>'s Wiki
       </div>
       <div class=navigation>
         <ul>
           <li><a href="/">blog</a>
-          <li><a href="/archive/">archive</a>
           <li><a href="/projects/">projects</a>
-          <li><a href="/travel/">travel</a>
           <li><a href="/talks/">talks</a>
           <li><a href="/about/">about</a>
         </ul>
@@ -92,23 +82,13 @@
         {% block body %}{% endblock %}
       </div>
       <div class=footer>
-        <p>&copy; Copyright {{ format_date(format='YYYY') }} by Armin Ronacher.
+        <p>&copy; Copyright {{ format_date(format='YYYY') }} by Sejal Rekhan.
         <p>
-          Content licensed under the Creative Commons
-          Attribution-NonCommercial 4.0 International <a href="https://creativecommons.org/licenses/by-nc/4.0/">License</a>.
+          Find me on <a href="https://x.com/sejal_rekhan">X / Twitter</a>
+          and <a href="https://www.linkedin.com/in/sejal-rekhan/">LinkedIn</a>.
         <p>
-          Contact me via <a href="mailto:armin.ronacher@active-4.com">mail</a>,
-          <a href="https://bsky.app/profile/mitsuhiko.at">bluesky</a>,
-          <a href="http://x.com/mitsuhiko">x</a>, or
-          <a href="http://github.com/mitsuhiko">github</a>.
-        <p>
-          You can <a href="https://github.com/sponsors/mitsuhiko/">sponsor me on github</a>.
-        <p>
-          More info: <a href="/about#imprint">imprint</a> &amp;
-          <a href="/ai-transparency">AI transparency</a>.
-          Subscribe via <a href="/feed.atom" rel="alternate" title="Armin Ronacher's
-            Thoughts and Writings" hx-boost="false">atom</a> / <a href="/feed.xml" rel="alternate" title="Armin Ronacher's
-            Thoughts and Writings" hx-boost="false">RSS</a>.
+          Subscribe via <a href="/feed.atom" rel="alternate" hx-boost="false">atom</a>
+          / <a href="/feed.xml" rel="alternate" hx-boost="false">RSS</a>.
         <p class="theme-selector" hidden>
           Color scheme:
           <label><input type="radio" name="theme" value="system"> <span>auto</span></label>,

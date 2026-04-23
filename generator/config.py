@@ -1,9 +1,9 @@
 # Configuration - all hardcoded values in one place
 CONFIG = {
-    "site_title": "Armin Ronacher's Thoughts and Writings",
-    "site_url": "https://lucumr.pocoo.org/",
-    "author": "Armin Ronacher",
-    "subtitle": "Armin Ronacher's personal blog about programming, games and random thoughts that come to his mind.",
+    "site_title": "Sejal Rekhan's Wiki",
+    "site_url": "https://sejalrekhan.com/",
+    "author": "Sejal Rekhan",
+    "subtitle": "Sejal Rekhan's personal notebook — experiments, observations and things worth writing down.",
     "posts_per_page": 10,
     "ignore_patterns": (
         ".*",

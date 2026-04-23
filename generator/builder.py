@@ -929,37 +929,6 @@ class Builder:
             print("Building feeds...")
             self.build_feeds()
 
-        # Build travel page and calendar with dependency tracking
-        travel_output = self.output_folder / "travel" / "index.html"
-        travel_dependencies = [
-            self.project_folder / "events.yaml",
-            Path(__file__).parent / "templates" / "travel.html",
-            Path(__file__).parent / "templates" / "layout.html",
-        ]
-
-        if self._needs_rebuild(travel_output, *travel_dependencies):
-            print("Building travel page...")
-            self.build_travel_page(travel_data)
-        else:
-            print("Travel page up to date")
-
-        print("Building travel calendar...")
-        self.build_travel_calendar(travel_data)
-
-        # Build talks page with dependency tracking
-        talks_output = self.output_folder / "talks" / "index.html"
-        talks_dependencies = [
-            self.project_folder / "talks.yaml",
-            Path(__file__).parent / "templates" / "talks.html",
-            Path(__file__).parent / "templates" / "layout.html",
-        ]
-
-        if self._needs_rebuild(talks_output, *talks_dependencies):
-            print("Building talks page...")
-            self.build_talks_page(talks_data)
-        else:
-            print("Talks page up to date")
-
         self.copy_static_files()
         self.write_pygments_css()
         self.generate_social_previews()
