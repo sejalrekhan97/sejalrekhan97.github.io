@@ -20,7 +20,7 @@ If you'd like me to speak at your event, [get in touch](/about/).
 
 ## 2025
 
-- **[Roadmap for Funding Ethereum's Open Source](https://www.youtube.com/watch?v=FhcJ1AaI2Fo)** w/ Devansh Mehta @ ECH Institute (EPD #23) —
+- **[Roadmap for Funding Ethereum's Open Source](https://www.youtube.com/watch?v=FhcJ1AaI2Fo)** @ ECH Institute (EPD #23) —
   A conversation on the challenges and opportunities within the Ethereum
   ecosystem, focusing on sustainable funding for public goods and a
   roadmap for open source.

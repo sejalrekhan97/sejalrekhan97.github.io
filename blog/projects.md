@@ -9,24 +9,6 @@ This is the area I'm most excited about right now — using AI to help
 communities make better collective decisions about how to fund what
 matters.
 
-### Deep Funding
-
-[Deep Funding](https://www.deepfunding.org/) is an experiment in using
-AI as the engine and humans as the steering wheel for directing funding
-to open source repositories. Inspired by Vitalik Buterin's vision, the
-system uses a market of AI models to evaluate which Ethereum dependencies
-deserve rewards — with humans providing spot-check oversight.
-
-I was part of the initial phase of the pilot where I **led jury data
-collection** — recruiting and onboarding jurors (including Vitalik, EF
-researchers, and prominent Ethereum contributors) to make pairwise
-comparisons across 4,303 Ethereum repositories, directing $170k of
-funding toward the most impactful projects.
-
-- [Deep Funding: Driving rewards to open source repos using AI](https://www.youtube.com/watch?v=vvJv7xbHHpc) — EPD #19, ECH Institute ([recording](https://www.youtube.com/watch?v=vvJv7xbHHpc))
-- [DeepFunding w/ Vitalik Buterin Pt. 2](https://www.youtube.com/watch?v=ygaEBHYllPU) — GreenPill Podcast ([recording](https://www.youtube.com/watch?v=ygaEBHYllPU))
-- [Join the Deep Funding Jury](https://research.allo.capital/t/join-the-deep-funding-jury/99) — original call for jurors I authored
-
 ### DeepGov
 
 [DeepGov](https://research.allo.capital/t/gg23-deepgov-configurable-ai-politicians-for-agent-allocation/294)
@@ -71,6 +53,24 @@ with [David Dao](https://daviddao.org/), and helped design the live pilots:
   mechanism — allocating funds across proposals from floors covering AI,
   Ethereum, health, biotech, arts, robotics, and more.
   ([event page](https://www.simocracy.org/ftc-sf))
+
+### Deep Funding
+
+[Deep Funding](https://www.deepfunding.org/) is an experiment in using
+AI as the engine and humans as the steering wheel for directing funding
+to open source repositories. Inspired by Vitalik Buterin's vision, the
+system uses a market of AI models to evaluate which Ethereum dependencies
+deserve rewards — with humans providing spot-check oversight.
+
+I was part of the initial phase of the pilot where I **led jury data
+collection** — recruiting and onboarding jurors (including Vitalik, EF
+researchers, and prominent Ethereum contributors) to make pairwise
+comparisons across 4,303 Ethereum repositories, directing $170k of
+funding toward the most impactful projects.
+
+- [Deep Funding: Driving rewards to open source repos using AI](https://www.youtube.com/watch?v=vvJv7xbHHpc) — EPD #19, ECH Institute ([recording](https://www.youtube.com/watch?v=vvJv7xbHHpc))
+- [DeepFunding w/ Vitalik Buterin Pt. 2](https://www.youtube.com/watch?v=ygaEBHYllPU) — GreenPill Podcast ([recording](https://www.youtube.com/watch?v=ygaEBHYllPU))
+- [Join the Deep Funding Jury](https://research.allo.capital/t/join-the-deep-funding-jury/99) — original call for jurors I authored
 
 ### AI4PGF — Academic Grants Program
 
